@@ -1,0 +1,2 @@
+nvcc julia_cpu.cu -Xlinker -framework,GLUT -Xlinker -framework,OpenGL
+nvcc julia_gpu.cu -Xlinker -framework,GLUT -Xlinker -framework,OpenGL
